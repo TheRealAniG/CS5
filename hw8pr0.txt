@@ -1,0 +1,9 @@
+This article distinguishes between algorithms and authors, e.g., often, algorithms and online
+results simply reflect people's attitudes and behavior. To what extent do you agree that algorithms 
+are (or aren't) subjective as a judge of human beings?
+
+I somewhat agree that algorithms are a subjective judge of human beings. I don't think its intentional
+but it just happens sometimes. Sometimes the person making the algorithms may have some unconscious
+bias that makes it into the algorithm. However, I think its the data that can lead to bias more than
+algorithm. Depending on how the data is gathered and processed I think thats what can lead to the 
+real bias. Also, how data and statistics are interpreted may reflect bias.

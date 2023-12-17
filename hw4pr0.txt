@@ -1,0 +1,14 @@
+Anirudh Gupta
+
+Prompt: The investigative report that uncovered the bug stated that software
+"does not fail in the same sense as a mechanical system." 
+Do you agree or disagree with this statement? Explain briefly.
+
+I agree with this statement because a software system should be more predictable 
+from what I know. If you give software the same input it should always give the
+same output, while with a mechanical system there can be slight differences 
+just because of all the factors that are there. Mechanical failures are thus
+more unpredictable and sometimes unpreventable than software. If the software
+is tested properly disasters like this should not happen. For example in a jet
+engine there maybe some crack that is not visible to us, but software should
+always be visibile.

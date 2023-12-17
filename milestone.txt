@@ -1,0 +1,7 @@
+The project has gone well so far.
+
+I believe I am done with the project, but before I submit the final version I will check everything.
+
+I don't think I have anything really remaining.
+
+The output is good, as I was even able to get a picobot program that solves the maze completely.

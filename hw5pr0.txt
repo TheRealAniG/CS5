@@ -1,0 +1,28 @@
+Prompt 1:
+The article describes qubits as holding two states at once as follows: Because each qubit represents two states at once, 
+the total number of states doubles with each added qubit. One qubit is two possible numbers, two is four possible numbers,
+three is eight and so forth. It starts slow but gets huge fast. The next paragraph then suggests that 100 or 280 qubits would
+hold a lot of different states, which is true! You would need to devote every atom of planet Earth to equal the number of
+states it could hold.
+Quantitative Bit of our prompt, i.e., the QBit:
+How many states could 100 qubits hold? 2^100 = 1267650600228229401496703205376
+How many states could 280 qubits hold? 2^280 = 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176
+(Extrapolate from the pattern noted in the article... perhaps use Python, too! The ** operator can help.)
+The number of states is 2 to the power of the number of qubits
+
+
+
+Prompt 2:
+Quantum entanglement is as conceptually challenging to us in 2022 as electrons were to humans in 1922. 
+A different NYTimes article shares several tweet-sized descriptions and metaphors:
+Choose one of these that you especially like -- or especially dislike -- and share why and/or how.
+
+Greg Kuperberg, professor of mathematics at the University of California, Davis: 
+A quantum computer is an exotic device that can run algorithms boosted with quantum randomness. 
+For selected questions, a modest array of slow, large qubits will outsmart the entire Earth paved with classical computer chips.
+
+
+I like this one because it explains the potential power of quantum computing. A whole earth covered in computer chips would have
+unimaginable computing power, but only a few large cubits could equal this. If we somehow achieve quantum computing it will significantly
+change the world and probably be one of the most important things in human history. It sounds like we have a ways to go however.
+

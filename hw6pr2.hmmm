@@ -1,0 +1,16 @@
+# hw6 problem 2
+#
+# Name(s): Anirudh Gupta
+#
+
+# This is a placeholder whose code you'll replace:
+
+00 read r1          # Getting Number   
+01 read r2          # Getting Power
+02 setn r3 1        # Defaulting at 1 incase power is 0
+03 jeqzn r2 7       # If power is 0 we are done
+04 mul r3 r3 r1     # Multiply by base for each power
+05 addn r2 -1       # Decreasing power
+06 jumpn 03         # jumping back to base case
+07 write r3         # writing result
+08 halt             # stop

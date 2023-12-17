@@ -1,0 +1,98 @@
+{
+    "name": "part0",
+    "id": "OVCqZdlKlNylOvneqecKFwqGAYxKFQlk",
+    "updated": 1701378121888,
+    "states": [
+        {
+            "x": 224,
+            "y": 209.0078125,
+            "name": "q0",
+            "id": "kWDKmzLDPlkxuCe",
+            "final": false,
+            "initial": true
+        },
+        {
+            "x": 394,
+            "y": 207.0078125,
+            "name": "q1",
+            "id": "EjyliJiQjFTWklw",
+            "final": false,
+            "initial": false
+        },
+        {
+            "x": 569,
+            "y": 201.0078125,
+            "name": "q2",
+            "id": "DSCwNrqhKNqpVIf",
+            "final": false,
+            "initial": false
+        },
+        {
+            "x": 737,
+            "y": 95.0078125,
+            "name": "q3",
+            "id": "BSmSwiMjRGDcJyf",
+            "final": false,
+            "initial": false
+        },
+        {
+            "x": 745,
+            "y": 309.0078125,
+            "name": "q4",
+            "id": "wzKTcoFjwUWAqRT",
+            "final": true,
+            "initial": false
+        }
+    ],
+    "transitions": [
+        {
+            "from": "kWDKmzLDPlkxuCe",
+            "to": "EjyliJiQjFTWklw",
+            "labels": [
+                "0",
+                "1"
+            ]
+        },
+        {
+            "from": "EjyliJiQjFTWklw",
+            "to": "DSCwNrqhKNqpVIf",
+            "labels": [
+                "0",
+                "1"
+            ]
+        },
+        {
+            "from": "DSCwNrqhKNqpVIf",
+            "to": "BSmSwiMjRGDcJyf",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "DSCwNrqhKNqpVIf",
+            "to": "wzKTcoFjwUWAqRT",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "BSmSwiMjRGDcJyf",
+            "to": "BSmSwiMjRGDcJyf",
+            "labels": [
+                "0",
+                "1"
+            ]
+        },
+        {
+            "from": "wzKTcoFjwUWAqRT",
+            "to": "wzKTcoFjwUWAqRT",
+            "labels": [
+                "0",
+                "1"
+            ]
+        }
+    ],
+    "inputs": [],
+    "stepInput": "",
+    "type": "finite"
+}

@@ -1,0 +1,16 @@
+# Nam0e(s): Anirudh Gupta
+#
+
+# Lab task #1a: Change the below code to "the cubic countdown"
+# See the lab description for details
+
+00 read r1          # Getting number to be cubed
+01 mul r2 r1 r1     # squaring it
+02 mul r2 r2 r1     # cubing it
+03 write r2         # writing it
+04 addn r2 -1       # counting down one
+05 jnezn r2 03      # if still abve 0 go back to step 3    
+06 halt             # stop
+
+# Lab task #1a: Change the above code to "the cubic countdown"
+# See the lab description for details

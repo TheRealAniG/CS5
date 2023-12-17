@@ -1,0 +1,21 @@
+# hw6pr1b.hmmm will become a random-number generator  
+#
+# Name(s): 
+
+# Lab task #2: Expand this to become your random-number generator:
+#   (Note: this is starter code that correctly handles the inputs...)
+
+00 read r1    # input a
+01 read r2    # input c
+02 read r3    # input m
+03 read r4    # input X_0
+04 read r5    # input N
+05 jeqzn r5 13 # if there are no more numbers to generate, jump to the end
+06 mul r6 r1 r4 # multiply a by current term
+07 add r6 r6 r2 # add previous step and c
+08 mod r6 r6 r3 # mod previous step and m
+09 write r6 # write the "random number"
+10 addn r5 -1 # N iterates down 1 since a number was outputed
+11 copy r4 r6 # our output is the new seed value
+12 jumpn 05 # jumps back to our starting point
+13 halt #stop

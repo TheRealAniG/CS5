@@ -1,0 +1,190 @@
+{
+    "name": "part4",
+    "id": "NZcmgtAjCiDcNhwmmmVMlFSamJWaiKPA",
+    "updated": 1701411148619,
+    "states": [
+        {
+            "x": 170.76687888222114,
+            "y": 152.3302408076102,
+            "name": "q0",
+            "id": "ZOOysLKzUVCElPa",
+            "final": false,
+            "initial": true
+        },
+        {
+            "x": 300.34421996855644,
+            "y": -63.19918069324291,
+            "name": "q1",
+            "id": "fclExwvirEkFLso",
+            "final": false,
+            "initial": false
+        },
+        {
+            "x": 564.549017444255,
+            "y": -60.47368941537036,
+            "name": "q2",
+            "id": "WmgJhZLjSKwKTFu",
+            "final": false,
+            "initial": false
+        },
+        {
+            "x": 693.0980348885099,
+            "y": 131.35856444969065,
+            "name": "q3",
+            "id": "RdcOTMlHgtUevHm",
+            "final": false,
+            "initial": false
+        },
+        {
+            "x": 709.0523110205722,
+            "y": 293.69191617352396,
+            "name": "q4",
+            "id": "qbHWEfsmJosJeeF",
+            "final": true,
+            "initial": false
+        },
+        {
+            "x": 572.8104622041145,
+            "y": 458.6156729459608,
+            "name": "q5",
+            "id": "WwCsWiLkYuBZPwS",
+            "final": true,
+            "initial": false
+        },
+        {
+            "x": 350.84312210978464,
+            "y": 474.10151112492053,
+            "name": "q6",
+            "id": "ybvBVbqXIApLJBA",
+            "final": true,
+            "initial": false
+        },
+        {
+            "x": 175.4182674785751,
+            "y": 355.846598346195,
+            "name": "q7",
+            "id": "lQlzXHsZqhplQFR",
+            "final": true,
+            "initial": false
+        }
+    ],
+    "transitions": [
+        {
+            "from": "ZOOysLKzUVCElPa",
+            "to": "ZOOysLKzUVCElPa",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "ZOOysLKzUVCElPa",
+            "to": "fclExwvirEkFLso",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "fclExwvirEkFLso",
+            "to": "WmgJhZLjSKwKTFu",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "fclExwvirEkFLso",
+            "to": "RdcOTMlHgtUevHm",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "WmgJhZLjSKwKTFu",
+            "to": "qbHWEfsmJosJeeF",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "WmgJhZLjSKwKTFu",
+            "to": "WwCsWiLkYuBZPwS",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "RdcOTMlHgtUevHm",
+            "to": "ybvBVbqXIApLJBA",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "RdcOTMlHgtUevHm",
+            "to": "lQlzXHsZqhplQFR",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "qbHWEfsmJosJeeF",
+            "to": "ZOOysLKzUVCElPa",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "qbHWEfsmJosJeeF",
+            "to": "fclExwvirEkFLso",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "WwCsWiLkYuBZPwS",
+            "to": "WmgJhZLjSKwKTFu",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "WwCsWiLkYuBZPwS",
+            "to": "RdcOTMlHgtUevHm",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "ybvBVbqXIApLJBA",
+            "to": "qbHWEfsmJosJeeF",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "ybvBVbqXIApLJBA",
+            "to": "WwCsWiLkYuBZPwS",
+            "labels": [
+                "1"
+            ]
+        },
+        {
+            "from": "lQlzXHsZqhplQFR",
+            "to": "ybvBVbqXIApLJBA",
+            "labels": [
+                "0"
+            ]
+        },
+        {
+            "from": "lQlzXHsZqhplQFR",
+            "to": "lQlzXHsZqhplQFR",
+            "labels": [
+                "1"
+            ]
+        }
+    ],
+    "inputs": [
+        "011011"
+    ],
+    "stepInput": "",
+    "type": "finite"
+}

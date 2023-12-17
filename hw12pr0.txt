@@ -1,0 +1,11 @@
+One quote from the article: "Aristotle [... drew ... ] a distinction between what he called “actual” infinity,
+ something that would exist all at once, at a given moment—which he declared an impossibility—and “potential” 
+ infinity, which would unfold over time and which he deemed perfectly intelligible." Reflect on how this Aristotelian 
+ distinction does (or doesn't) capture the difference between the infinity of mathematical functions and the infinity of 
+ computer programs.
+
+I think it does capture the difference between mathematical functions and computer programs. To me mathematical functions can
+be modeled all at once. These functions have infinite values and they are all there are once. The function is more of a concept and
+I don't see how a concept can be limited like that. However, a computer program, is limited by the hardware it is run on. No matter
+how powerful the hardware is, it has a limit of what it can do at once. So even if it can keep doing things infinitely, it can only
+do so much at once. 

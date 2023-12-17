@@ -1,0 +1,7 @@
+Picobot Project
+
+Team Member: Anirudh Gupta
+
+My goal for this project is to write a program that can successfuly 
+solve a picobot maze using a genetic algorithm. I will not be doing 
+anything additionally.

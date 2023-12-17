@@ -1,0 +1,23 @@
+# hw6 problem 3  
+#
+# Name(s): Anirudh Gupta
+#
+# Hmmm...
+#
+
+
+00 setn r1 1    #first value is 1
+01 setn r2 1    #second value is 1
+02 read r3      #how many numbers user wants
+03 addn r3 -2   #we always print out atleast 2 numbers so they dont count
+04 write r1     # print first number
+05 write r2     # print second number
+06 jeqzn r3 14  # if no numbers to print jump to end
+07 add r1 r1 r2 # add two terms
+08 write r1     # write the result
+09 copy r4 r2   # temp variable
+10 copy r2 r1   # new second term is the result
+11 copy r1 r4   # new first term is old second term
+12 addn r3 -1   # iterate down
+13 jumpn 6      # jump back to start of loop
+14 halt         # stop
